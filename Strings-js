@@ -1,0 +1,28 @@
+document.write("Converted String=",Number("3.14"),"</br>");
+document.write("Converted Int=",parseInt("5"),"</br>");
+document.write("Converted Float=",parseFloat("3.14"),"</br>");
+
+var randStr="A long"+"string that"+"goes on and on";
+document.write("String length=",randStr.length,"</br>");
+document.write("Index for \"goes\":",randStr.indexOf("goes"),"</br>");
+document.write(randStr.slice(19, 23) + "</br>");
+document.write(randStr.slice(19) + "</br>");
+document.write(randStr.substr(19,4),"</br>");
+document.write(randStr.replace("and on","forever"),"</br>");
+document.write("At index 5:", randStr.charAt(5),"</br>");
+var randStrArray=randStr.split(" ");
+randStr=randStr.trim();
+document.write(randStr.toUpperCase()+"</br>");
+document.write(randStr.toLowerCase()+"</br>");
+
+var strToStyle="Random String";
+document.write("Big:",strToStyle.big()+"</br>");
+document.write("Bold:",strToStyle.bold()+"</br>");
+document.write("Font color:",strToStyle.fontcolor("blue")+"</br>");
+document.write("Font Size:",strToStyle.fontsize("8em")+"</br>");
+document.write("Italics:",strToStyle.italics()+"</br>");
+document.write("Link:",strToStyle.link("http://google.com")+"</br>");
+document.write("Small:",strToStyle.small()+"</br>");
+document.write("Strike:",strToStyle.strike()+"</br>");
+document.write("Sub:",strToStyle.sub()+"</br>");
+document.write("Sup:",strToStyle.sup()+"</br>");
