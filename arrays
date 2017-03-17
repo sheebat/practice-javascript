@@ -1,0 +1,51 @@
+var tomSmith=["Tom Smith", "123 Main", 120.50];
+document.write("1st Index", tomSmith[0], "</br>");
+tomSmith[3]="tSmith@aol.com";
+document.write(tomSmith, "</br>");
+tomSmith.splice(2,1,"Pittsburgh","PA");
+document.write(tomSmith, "</br>");
+tomSmith.splice(4,1);
+document.write(tomSmith, "</br>");
+document.write("Array:", tomSmith.valueOf(),"</br>");
+document.write("Array:", tomSmith.join(", "),"</br>");
+
+delete tomSmith[3];
+document.write(tomSmith, "</br>");
+
+var number=[4,9,78,19,100,37,26];
+number.sort().reverse();
+document.write(number, "</br>");
+
+var number=[4,9,78,19,100,37,26];
+number.sort(function(x,y){
+return x-y
+});
+document.write("Num Array:", number.toString(), "<br/>")
+
+var number=[4,9,78,19,100,37,26];
+number.sort(function(x,y){
+return y-x
+});
+document.write("Num Array:", number.toString(), "<br/>")
+
+var combinedArray=number.concat(tomSmith);
+document.write(combinedArray, "</br>");
+
+tomSmith.pop();
+document.write(tomSmith, "</br>");
+
+
+tomSmith.push("555-1212","US");
+document.write(tomSmith, "</br>");
+
+tomSmith.shift();
+document.write(tomSmith, "</br>");
+
+tomSmith.unshift("Tom Smith");
+document.write(tomSmith, "</br>");
+
+for(i=0;i<tomSmith.length;i++){
+document.write(tomSmith[i] +"<br/>")
+}
+
+
