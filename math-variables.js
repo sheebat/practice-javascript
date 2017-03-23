@@ -33,3 +33,8 @@ document.write("Math.pow(4,2)=",Math.pow(4,2),"</br>");
 document.write("Math.sqrt(1000)=",Math.sqrt(1000),"</br>");
 document.write("Math.E=",Math.E,"</br>");
 document.write("Math.E=",Math.E,"</br>");
+var myarray=[25, 8, "George", "John"]; 
+myarray.sort(function(){ //Array elements now scrambled
+    return 0.5 - Math.random();
+});
+document.write(myarray);
