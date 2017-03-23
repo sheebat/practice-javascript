@@ -17,15 +17,7 @@ document.write("randNum+=5",randNum+=5,"</br>");
 document.write("randNum-=5",randNum-=5,"</br>");
 document.write("randNum*=5",randNum*=5,"</br>");
 document.write("randNum/=5",randNum/=5,"</br>");
-var randNum=5;
-document.write("randNum++=",randNum++,"</br>");
-document.write("++randNum=",++randNum,"</br>");
-document.write("randNum--=",randNum--,"</br>");
-document.write("--randNum=",--randNum,"</br>");
-document.write("randNum+=5",randNum+=5,"</br>");
-document.write("randNum-=5",randNum-=5,"</br>");
-document.write("randNum*=5",randNum*=5,"</br>");
-document.write("randNum/=5",randNum/=5,"</br>");
+
 document.write("Math.E=",Math.E,"</br>");
 document.write("Math.PI=",Math.PI,"</br>");
 document.write("Math.abs(-9)=",Math.abs(-9),"</br>");
