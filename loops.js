@@ -44,3 +44,12 @@ for(i=0;i<5;i++){
   x = x + "The number is " +i +"<br/>";
 }
 document.write(x + "<br/>");
+-------------------------------------------
+  FOR IN LOOPS
+  var txt=" ";
+var person={fname:"John", lname:"Doe",age:25};
+var x;
+for(x in person){
+  txt += person[x]+" ";
+}
+document.write(txt + "<br/>");
